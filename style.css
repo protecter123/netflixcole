@@ -254,3 +254,48 @@ position: relative;
 top: -23vw;
 left: 18vw;
 }
+.sec1{
+  height: 803px;
+  width: 100vw;
+ background-color: black;
+}
+.sec1 h1{
+  color: white;
+text-align: center;
+font-size: 50px;
+font-weight: 900;
+padding-top: 61px;
+margin-bottom: 27px;
+}
+  .divs{
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      height: 577px;
+      align-items: center;
+      margin: 10px;
+  }
+  .divs div{
+      width: 76vw;
+height: 80px;
+background-color: #2d2d2d;
+margin: 5px;
+  }
+  .divs button{
+      display: flex;
+justify-content: center;
+align-items: center;
+height: 59px;
+margin-top: 30px;
+width: 13vw;
+border: none;
+border-radius: 5px;
+color: white;
+background-color: #E50914;
+font-size: 25px;
+  }
+  .divs div span p{
+      color: white;
+      font-size: 26px;
+      margin: 20px;
+  }
