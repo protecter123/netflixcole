@@ -299,3 +299,44 @@ font-size: 25px;
       font-size: 26px;
       margin: 20px;
   }
+  footer{
+    height:420px;
+    width: 100vw;
+    margin-top: 8px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .foot{
+    height:310px;
+    color: #b3b3b3;
+    width: 76vw;
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+grid-template-rows: 51px 38px 38px 38px 38px 75px 50px;
+   }
+   .foot p:nth-child(1){
+    grid-column: 1/5;
+    padding-top: 10px;
+     }
+    .foot a{
+        color: #b3b3b3;
+        padding: 10px 0px;
+    }
+    .foot button{
+        grid-row:6/7 ;
+        height: 37px;
+        width: 121px;
+        color: white;
+        background-color: black;
+        border: 1px solid #b3b3b3;
+        margin-top: 9px;
+        border-radius:6px ;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .foot p:nth-child(18){
+        grid-row: 7/8;
+    }
